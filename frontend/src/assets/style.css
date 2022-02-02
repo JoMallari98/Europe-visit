@@ -126,7 +126,7 @@ Section1
 }
 .section1 .thumbnail {
   width: 320px;
-  height: 400px;
+  height: 440px;
   border-radius: 10px;
   position: absolute;
   position: relative;
@@ -840,13 +840,13 @@ img.vedeo-img {
 img.img-before-gradient {
   width: 100%;
   position: relative;
-  top: 150px;
+  top: 158px;
 }
 img.gradient-img {
   width: 100%;
   position: absolute;
   left: 0;
-  height: 500px;
+  height: 526px;
 }
 section.section-2 {
   top: 370vh;
