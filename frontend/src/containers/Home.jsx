@@ -39,17 +39,20 @@ const Home = () => {
       <Header img={ImgEVGAlogo} />
       <section className="section1">
         <img class="background-img" src={Imgbackground} alt="" />
-        <h2 class="heading">Happiest place on Earth!</h2>
+        <div class="heading">Happiest place on Earth!</div>
         <Search img={ImgSearchicon} />
         <center>
-          <h4>Tourist Attractions in Europe</h4>
+          <h4 id="Tourist">Tourist Attractions in Europe</h4>
         </center>
         <div className="grid">
           {categories.map((category) => (
             <GridContent key={category.id} category={category} />
           ))}
+          <p>{categories.name}</p>
         </div>
-        <div class="heading1">Natural Wonders in Europe</div>
+        <div id="Natural" class="heading1">
+          Natural Wonders in Europe
+        </div>
         <div class="gallery">
           <div class="row">
             {places.map((place) => (
