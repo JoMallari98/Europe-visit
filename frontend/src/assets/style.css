@@ -253,7 +253,8 @@ header .navbar {
   display: grid;
   justify-content: space-evenly;
   grid-template-columns: repeat(2, 1fr);
-  margin: 120px 80% 0;
+  margin: 0 50%;
+  margin-top: 120px;
 }
 .section2 .gridcontent {
   position: relative;
@@ -302,7 +303,6 @@ header .navbar {
   position: relative;
   top: 110px;
   text-align: center;
-  left: 19vw;
 }
 
 .section2 .gridcontent .mainimage {
@@ -1117,7 +1117,4 @@ img.close-button {
 a.footer-links {
   color: white;
   text-decoration: none;
-}
-section.section2 {
-  width: 56%;
 }
