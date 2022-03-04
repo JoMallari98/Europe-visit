@@ -247,7 +247,7 @@ header .navbar {
   color: blue;
 }
 .section2 {
-  width: 100vw;
+  width: 98vw;
 }
 .section2 .grid {
   display: grid;
@@ -312,7 +312,7 @@ header .navbar {
   object-fit: cover;
 }
 .section2 .gallery {
-  margin: 0 auto;
+  margin: 0 ;
   width: fit-content;
   grid-template-columns: repeat(2, 1fr);
 }
