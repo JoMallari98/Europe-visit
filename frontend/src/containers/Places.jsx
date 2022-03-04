@@ -40,7 +40,7 @@ const Places = () => {
            <Search/>
          </div>
           <div class="heading1">
-             Europian trip
+             Europe trip
          </div>
         <div class="grid">
             {places.map((place)=>(
